@@ -27,7 +27,7 @@ Snowball.prototype.update = function () {
                     this.removeFromWorld = true;
                     ent.removeFromWorld = true;
                 } else {
-                    this.direction *= -0.8;
+                    this.direction *= -1;
                     this.timesOfBoucing++;
                     ent.timesOfBoucing++;
                 }
