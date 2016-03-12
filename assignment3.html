@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>491 Assignment 3</title>
+    <script type="text/javascript" src="http://76.28.150.193:8888/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="./gameengine.js"></script>
+    <script type="text/javascript" src="./assetmanager.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="./snowball.js"></script>
+
+</head>
+<p>
+    Assignment 2 by Feng Yang
+</p>
+<p>
+    Use Up,Down,Left,Right to move snowman.
+</p>
+<p>
+    Connect to database
+</p>
+<body>
+    <audio src="./music/backgroundSound.mp3" id="bgm" preload="auto"></audio>
+    <script>
+            document.getElementById("bgm").volume = .4;
+            document.getElementById("bgm").play();
+            document.getElementById("bgm").loop = true;
+    </script>
+    <canvas id="gameWorld" tabindex="1" width="800" height="800" style="border: 1px solid brown; background: lightskyblue"></canvas>
+</body>
+</html>
